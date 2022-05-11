@@ -8,7 +8,7 @@ public class Exercicio_04 {
 
         int[][] M = new int[4][4];
 
-        System.out.printf("Matriz:\n");
+        System.out.println("Matriz: ");
         for (int i = 0; i < M.length; i++) {
             for (int j = 0; j < M[i].length; j++) {
                 M[i][j] = random.nextInt(9);
